@@ -7,7 +7,7 @@ http-equiv="X-UA-Compatible">
 		 
 <META charset="utf-8">		 
 <META name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-<TITLE>拍拍客</TITLE>		 
+<TITLE>照片墙</TITLE>		 
 <STYLE>
 			html, body {
 				height: 100%;
@@ -109,10 +109,7 @@ http-equiv="X-UA-Compatible">
 				#weixin {
 					display: none;
 				}
-				
-				#demo {
-					display: none;
-				}
+
 				#info {
 					display: none;
 				}
@@ -143,28 +140,12 @@ http-equiv="X-UA-Compatible">
 <SCRIPT src="js/CSS3DRenderer.js"></SCRIPT>
 		 
 <DIV id="container"></DIV>
-<DIV id="info">
-	我们喜欢随手拍一拍,大多数照片没有特殊意义，偶尔也会看一看。我们是——————<font size="6" color="red">拍拍客！</font>
-	<A href="https://github.com/liuhill/i-Pper" target="_blank">源代码</A>
-</DIV>
+
 <DIV id="weixin" >
 	<img src='img/weixin.jpg' width = '130px',height = '130px'></br>
-	<font size="3" color="white">使用方法:</font></br>
-	<font size="1" color="red">1）微信添加公共账号</br>
-								2）发送图片</br>
-								3）刷新！</br>
-								~~你的照片上墙了~
-	</font>
-
 </DIV>
 
-<div id="demo" >
-	<h3>3D效果图</h3></br>
-	<img src='img/table.gif' width = '80px',height = '80px'></br>
-	<img src='img/sphere.gif'  width = '80px',height = '80px'></br>	
-	<img src='img/helix.gif'  width = '80px',height = '80px'></br>
-	<img src='img/grid.gif'  width = '80px',height = '80px'></br>
-</div>
+
 
 <DIV id="menu">
 	<BUTTON id="table">照片墙</BUTTON>
